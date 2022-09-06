@@ -12,7 +12,7 @@ export const QRCard = styled.div`
 	@media (max-width: ${({ breakpoints }) => breakpoints.mobile}) {
 		margin-top: 85px;
 	}
-	/* animation: fade-in-bottom 0.6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both; */
+	animation: fade-in-bottom 0.6s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
 
 	img {
 		width: 100%;

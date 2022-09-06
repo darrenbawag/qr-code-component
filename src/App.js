@@ -22,21 +22,23 @@ const App = () => {
 		<ThemeProvider theme={theme}>
 			<>
 				<GlobalStyles backgroundColor={theme.colors["light-gray"]} />
-				<Container>
-					<QRCard
-						backgroundColor={theme.colors.white}
-						headingColor={theme.colors["dark-blue"]}
-						textColor={theme.colors["grayish-blue"]}
-						breakpoints={theme.breakpoints}
-					>
-						<img src="./images/image-qr-code.png" alt="QR Code" />
-						<h1>Improve your front-end skills by building projects</h1>
-						<p>
-							Scan the QR code to visit Frontend Mentor and take your coding
-							skills to the next level
-						</p>
-					</QRCard>
-				</Container>
+				<main>
+					<Container>
+						<QRCard
+							backgroundColor={theme.colors.white}
+							headingColor={theme.colors["dark-blue"]}
+							textColor={theme.colors["grayish-blue"]}
+							breakpoints={theme.breakpoints}
+						>
+							<img src="./images/image-qr-code.png" alt="QR Code" />
+							<h1>Improve your front-end skills by building projects</h1>
+							<p>
+								Scan the QR code to visit Frontend Mentor and take your coding
+								skills to the next level
+							</p>
+						</QRCard>
+					</Container>
+				</main>
 			</>
 		</ThemeProvider>
 	);
