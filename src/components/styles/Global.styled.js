@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     background-color: ${({ backgroundColor }) => backgroundColor || "none"};
     margin: 0;

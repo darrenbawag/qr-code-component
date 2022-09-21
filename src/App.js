@@ -5,6 +5,8 @@ import { GlobalStyles } from "./components/styles/Global.styled";
 import { Container } from "./components/styles/Container.styled";
 import { QRCard } from "./components/styles/QRCard.styled";
 
+import Footer from "./components/Footer";
+
 const theme = {
   colors: {
     white: "hsl(0, 0%, 100%)",
@@ -39,6 +41,7 @@ const App = () => {
 						</QRCard>
 					</Container>
 				</main>
+				<Footer textColor={theme.colors["dark-blue"]} />
 			</>
 		</ThemeProvider>
 	);

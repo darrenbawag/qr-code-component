@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const QRCard = styled.div`
-	width: 320px;
+	width: 20rem;
 	max-width: 100%;
-	margin: 152px auto 0;
-	padding: 16px;
-	border-radius: 20px;
+	margin: 9.5rem auto 0;
+	padding: 1rem;
+	border-radius: 1.25rem;
 	background-color: ${({ backgroundColor }) => backgroundColor || "none"};
 	text-align: center;
-	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 1.25rem 1.5625rem rgba(0, 0, 0, 0.07);
 	@media (max-width: ${({ breakpoints }) => breakpoints.mobile}) {
 		margin-top: 85px;
 	}
@@ -16,22 +16,22 @@ export const QRCard = styled.div`
 
 	img {
 		width: 100%;
-		border-radius: 10px;
-		margin-bottom: 20px;
+		border-radius: 0.625rem;
+		margin-bottom: 1.25rem;
 	}
 
 	h1 {
 		color: ${({ headingColor }) => headingColor || "inherit"};
-		font-size: 22px;
+		font-size: 1.375rem;
 		font-weight: 700;
 		margin-bottom: 1rem;
 	}
 
 	p {
 		color: ${({ textColor }) => textColor || "inherit"};
-		margin-left: 15px;
-		margin-right: 15px;
-		margin-bottom: 25px;
-		letter-spacing: 0.2px;
+		margin-left: 0.9375rem;
+		margin-right: 0.9375rem;
+		margin-bottom: 1.5625rem;
+		letter-spacing: 0.0125rem;
 	}
 `;
